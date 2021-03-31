@@ -5,7 +5,8 @@
 	<groupId>com.training.automation</groupId>
 	<artifactId>training-automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
+ 
+	<!--changing this file to create new branch and push the code that branch -->
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
