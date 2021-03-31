@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.training.automation.tests.products.ProductDetailsTest">
+        <methods>
+          <include name="init"/>
+          <include name="navigateToProductsPage"/>
+          <include name="searchProduct" invocation-numbers="0 1 2 3 4"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.products.ProductDetailsTest -->
+      <class name="com.training.automation.tests.register.RegisterTest">
+        <methods>
+          <include name="isNameFieldPresent"/>
+          <include name="isEmailFieldPresent"/>
+          <include name="init"/>
+          <include name="navigateToRegisterPage"/>
+          <include name="isPasswordFieldPresent"/>
+          <include name="isUsernameFieldPresent"/>
+          <include name="isPhoneFieldPresent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.register.RegisterTest -->
+      <class name="com.training.automation.tests.home.HomeTest">
+        <methods>
+          <include name="init"/>
+          <include name="logoTest"/>
+          <include name="lauchTest"/>
+          <include name="cleanUp"/>
+          <include name="logoNavigationTest"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.home.HomeTest -->
+      <class name="com.training.automation.tests.login.LoginTest">
+        <methods>
+          <include name="init"/>
+          <include name="navigateToLoginPage"/>
+          <include name="enterLoginDetails" invocation-numbers="0 1 2"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.login.LoginTest -->
+      <class name="com.training.automation.tests.products.ProductsTest">
+        <methods>
+          <include name="navigateToProductsPage"/>
+        </methods>
+      </class> <!-- com.training.automation.tests.products.ProductsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

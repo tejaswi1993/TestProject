@@ -1,0 +1,163 @@
+[INFO ] [main] ShpBaseTest - browser name is firefox
+[INFO ] [main] ShpBaseTest - Launching Firefox browser
+[INFO ] [main] ShpListener - Test execution started for invalidRegistrationTest
+[INFO ] [main] ShpBaseTest - Launch Test application
+[INFO ] [main] ShpBaseTest - Verifying register link
+[INFO ] [main] ShpBaseTest - Navigate to the register page
+[INFO ] [main] ShpBaseTest - Verify the fields
+[INFO ] [main] ShpBaseTest - verify register is successfull or not
+[INFO ] [main] ShpListener - Testcase invalidRegistrationTest Passed
+[INFO ] [main] ShpListener - Test execution started for productTest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase productTest failed
+[INFO ] [main] ShpListener - Test execution started for headerTest
+[INFO ] [main] HeaderTest - Asserting the Shopping Cart link
+[INFO ] [main] HeaderTest - Asserting the Home Header
+[INFO ] [main] HeaderTest - Asserting the Products Header
+[INFO ] [main] HeaderTest - Asserting the Login Header
+[INFO ] [main] HeaderTest - Asserting the Register header
+[INFO ] [main] HeaderTest - Asserting the Help Header
+[INFO ] [main] HeaderTest - Asserting the SlowLinkPage header
+[INFO ] [main] HeaderTest - Asserting the Exercise Header
+[INFO ] [main] ShpListener - Testcase headerTest Passed
+[INFO ] [main] ShpListener - Test execution started for loginNegativeTest
+[INFO ] [main] ShpBaseTest - Launch shopping cart website
+[INFO ] [main] ShpBaseTest - Verify logo
+[INFO ] [main] ShpBaseTest - verify loginLink
+[INFO ] [main] ShpBaseTest - NavigateTo Login page
+[INFO ] [main] ShpBaseTest - Enter Invalid credentials
+[INFO ] [main] ShpBaseTest - verify invalid Text
+[INFO ] [main] ShpListener - Testcase loginNegativeTest Passed
+[INFO ] [main] ShpListener - Test execution started for naviagateToLoginTest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] BasePage - Clicking on login link
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase naviagateToLoginTest Passed
+[INFO ] [main] ShpListener - Test execution started for loginTest
+[INFO ] [main] BasePage - Entering username testuser
+[INFO ] [main] BasePage - Entering password testuser
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase loginTest Passed
+[INFO ] [main] ShpListener - Test execution started for loginTest
+[INFO ] [main] BasePage - Entering username akash
+[INFO ] [main] BasePage - Entering password akash
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase loginTest Passed
+[INFO ] [main] ShpListener - Test execution started for loginTest
+[INFO ] [main] BasePage - Entering username usertest
+[INFO ] [main] BasePage - Entering password usertest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase loginTest Passed
+[INFO ] [main] ShpListener - Test execution started for launchTest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] HomeTest - Asserting the title
+[INFO ] [main] ShpListener - Testcase launchTest Passed
+[INFO ] [main] ShpListener - Test execution started for logoNavigationTest
+[INFO ] [main] BasePage - Clicking on logo
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase logoNavigationTest Passed
+[INFO ] [main] ShpListener - Test execution started for logoTest
+[INFO ] [main] ShpListener - Testcase logoTest Passed
+[INFO ] [main] ShpListener - Test execution started for naviagateToProductTest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - Navigating to Products page
+[INFO ] [main] BasePage - Clicking on products link
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - view button is displayed
+[INFO ] [main] ShpListener - Testcase naviagateToProductTest Passed
+[INFO ] [main] ShpListener - Test execution started for searchProductDPTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product http
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - search product Shruti is displayed
+[INFO ] [main] ShpListener - Testcase searchProductDPTest Passed
+[INFO ] [main] ShpListener - Test execution started for searchProductDPTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product test
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - search product Shruti is displayed
+[INFO ] [main] ShpListener - Testcase searchProductDPTest Passed
+[INFO ] [main] ShpListener - Test execution started for searchProductDPTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product shruti
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - search product Shruti is displayed
+[INFO ] [main] ShpListener - Testcase searchProductDPTest Passed
+[INFO ] [main] ShpListener - Test execution started for searchProductDPTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product litika
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - search product Shruti is displayed
+[INFO ] [main] ShpListener - Testcase searchProductDPTest Passed
+[INFO ] [main] ShpListener - Test execution started for searchProductDPTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product abc
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase searchProductDPTest failed
+[INFO ] [main] ShpListener - Test execution started for searchProductTest
+[INFO ] [main] ProductDetailsTest - Search for product 'Shruti'
+[INFO ] [main] BasePage - Searching for the product veena-product
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ProductDetailsTest - search product Shruti is displayed
+[INFO ] [main] ShpListener - Testcase searchProductTest Passed
+[INFO ] [main] ShpListener - Test execution started for navigateToRegisterPage
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - Navigating to Register Page
+[INFO ] [main] BasePage - Clicking on register link
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - The register page is launched
+[INFO ] [main] ShpListener - Testcase navigateToRegisterPage Passed
+[INFO ] [main] ShpListener - Test execution started for isNameFieldPresent
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - Asserting the Name Field
+[INFO ] [main] BasePage - Enter the name : Tejas
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - Name field is displayed
+[INFO ] [main] ShpListener - Testcase isNameFieldPresent Passed
+[INFO ] [main] ShpListener - Test execution started for isEmailFieldPresent
+[INFO ] [main] RegisterFieldsTest - Asserting the Email field
+[INFO ] [main] BasePage - Enter the emailId : tejaswi@gmail.com
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - EMail field is displayed
+[INFO ] [main] ShpListener - Testcase isEmailFieldPresent Passed
+[INFO ] [main] ShpListener - Test execution started for isPhoneFieldPresent
+[INFO ] [main] RegisterFieldsTest - Asserting for phone field
+[INFO ] [main] BasePage - Enter the phone : 345-879-333
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - Phone field is displayed
+[INFO ] [main] ShpListener - Testcase isPhoneFieldPresent Passed
+[INFO ] [main] ShpListener - Test execution started for isUsernamePresent
+[INFO ] [main] RegisterFieldsTest - Asserting for username field
+[INFO ] [main] BasePage - Enter the username : tejaswi
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] RegisterFieldsTest - username field is displayed
+[INFO ] [main] ShpListener - Testcase isUsernamePresent Passed
+[INFO ] [main] ShpListener - Test execution started for isPasswordFieldPresent
+[INFO ] [main] RegisterFieldsTest - Asserting for password field
+[INFO ] [main] RegisterFieldsTest - Password field is displayed
+[INFO ] [main] ShpListener - Testcase isPasswordFieldPresent Passed
+[INFO ] [main] ShpListener - Test execution started for registerSanityTest
+[INFO ] [main] ShpBaseTest - Launch Test application
+[INFO ] [main] ShpBaseTest - Verifying register link
+[INFO ] [main] ShpBaseTest - Navigate to the register page
+[INFO ] [main] ShpBaseTest - Verify the fields
+[INFO ] [main] ShpBaseTest - verify register is successfull or not
+[INFO ] [main] ShpListener - Testcase registerSanityTest Passed
+[INFO ] [main] ShpListener - Test execution started for productSearchTest
+[INFO ] [main] ShpBaseTest - sending key 'spl' in search box
+[INFO ] [main] ShpBaseTest - Asserting the view box
+[INFO ] [main] ShpListener - Testcase productSearchTest failed
+[INFO ] [main] ShpListener - Test execution started for launchTest
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpListener - Testcase launchTest Passed
+[INFO ] [main] ShpListener - Test execution started for loginLinkTest
+[INFO ] [main] ShpListener - Testcase loginLinkTest Passed
+[INFO ] [main] ShpListener - Test execution started for navigateToLoginTest
+[INFO ] [main] ShpBaseTest - Navigate to login Page
+[INFO ] [main] BasePage - Clicking on login link
+[INFO ] [main] BasePage - Initialized the WebElements
+[INFO ] [main] ShpBaseTest - Asserting the username
+[INFO ] [main] ShpListener - Testcase navigateToLoginTest Passed

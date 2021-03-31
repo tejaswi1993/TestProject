@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.shp.automation.products.test.ProductTest">
+        <methods>
+          <include name="init"/>
+          <include name="productTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.shp.automation.products.test.ProductTest -->
+      <class name="com.shp.automation.products.test.ProductDetailsTest">
+        <methods>
+          <include name="naviagateToProductTest"/>
+          <include name="init"/>
+          <include name="searchProductDPTest" invocation-numbers="4"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.shp.automation.products.test.ProductDetailsTest -->
+      <class name="com.shp.automation.products.test.ProductSearchTest">
+        <methods>
+          <include name="init"/>
+          <include name="productSearchTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- com.shp.automation.products.test.ProductSearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

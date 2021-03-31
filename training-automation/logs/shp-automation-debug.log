@@ -1,0 +1,24 @@
+[INFO ] [main] BaseTest - The browser is :Firefox
+[INFO ] [main] TrainListener - Test execution started for navigateToLoginPage
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Clickingon login
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase navigateToLoginPage Passed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase enterLoginDetails Passed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase enterLoginDetails Passed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase enterLoginDetails Passed

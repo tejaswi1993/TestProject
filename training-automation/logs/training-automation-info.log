@@ -1,0 +1,70 @@
+[INFO ] [main] BaseTest - The browser is :Firefox
+[INFO ] [main] TrainListener - Test execution started for navigateToLoginPage
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Clickingon login
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase navigateToLoginPage Passed
+[INFO ] [main] TrainListener - Test execution started for navigateToProductsPage
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - CLick on products link
+[INFO ] [main] BasePage - Clicking on products
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Header is displayed
+[INFO ] [main] TrainListener - Testcase navigateToProductsPage Passed
+[INFO ] [main] TrainListener - Test execution started for getResponseBody
+[INFO ] [main] TrainListener - Testcase getResponseBody Passed
+[INFO ] [main] TrainListener - Test execution started for lauchTest
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase lauchTest failed
+[INFO ] [main] TrainListener - Test execution started for navigateToProductsPage
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] TrainListener - Testcase navigateToProductsPage failed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] TrainListener - Testcase enterLoginDetails failed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] TrainListener - Testcase enterLoginDetails failed
+[INFO ] [main] TrainListener - Test execution started for enterLoginDetails
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] BasePage - Enter the username and password details
+[INFO ] [main] TrainListener - Testcase enterLoginDetails failed
+[INFO ] [main] TrainListener - Test execution started for searchProduct
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Searching for the product 'shruti'
+[INFO ] [main] BasePage - Search the product http
+[INFO ] [main] TrainListener - Testcase searchProduct failed
+[INFO ] [main] TrainListener - Test execution started for searchProduct
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Searching for the product 'shruti'
+[INFO ] [main] BasePage - Search the product test
+[INFO ] [main] TrainListener - Testcase searchProduct failed
+[INFO ] [main] TrainListener - Test execution started for searchProduct
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Searching for the product 'shruti'
+[INFO ] [main] BasePage - Search the product shruti
+[INFO ] [main] TrainListener - Testcase searchProduct failed
+[INFO ] [main] TrainListener - Test execution started for searchProduct
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Searching for the product 'shruti'
+[INFO ] [main] BasePage - Search the product litika
+[INFO ] [main] TrainListener - Testcase searchProduct failed
+[INFO ] [main] TrainListener - Test execution started for searchProduct
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] ProductDetailsTest - Searching for the product 'shruti'
+[INFO ] [main] BasePage - Search the product abc
+[INFO ] [main] TrainListener - Testcase searchProduct failed
+[INFO ] [main] TrainListener - Test execution started for navigateToRegisterPage
+[INFO ] [main] BasePage - Initialized the webelements
+[INFO ] [main] RegisterTest - Clicking on Register link
+[INFO ] [main] BasePage - Clicking on register
+[INFO ] [main] TrainListener - Testcase navigateToRegisterPage failed
+[INFO ] [main] TrainListener - Testcase logoTest skipped
+[INFO ] [main] TrainListener - Testcase isNameFieldPresent skipped
+[INFO ] [main] TrainListener - Testcase logoNavigationTest skipped
+[INFO ] [main] TrainListener - Testcase isEmailFieldPresent skipped
+[INFO ] [main] TrainListener - Testcase isPhoneFieldPresent skipped
+[INFO ] [main] TrainListener - Testcase isUsernameFieldPresent skipped
+[INFO ] [main] TrainListener - Testcase isPasswordFieldPresent skipped

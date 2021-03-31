@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="22" total="51" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88713" started-at="2021-03-30T21:00:02 PDT" finished-at="2021-03-30T21:01:31 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88713" started-at="2021-03-30T21:00:02 PDT" finished-at="2021-03-30T21:01:31 PDT">
+      <class name="com.shp.automation.home.test.HomeTest">
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.shp.automation.home.test.HomeTest@3d51f06e]" name="launchTest" duration-ms="6" started-at="2021-03-30T21:00:44 PDT" finished-at="2021-03-30T21:00:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method status="PASS" signature="logoNavigationTest()[pri:0, instance:com.shp.automation.home.test.HomeTest@3d51f06e]" name="logoNavigationTest" duration-ms="207" started-at="2021-03-30T21:00:44 PDT" depends-on-methods="com.shp.automation.home.test.HomeTest.launchTest" finished-at="2021-03-30T21:00:44 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoNavigationTest -->
+        <test-method status="PASS" signature="logoTest()[pri:0, instance:com.shp.automation.home.test.HomeTest@3d51f06e]" name="logoTest" duration-ms="35" started-at="2021-03-30T21:00:45 PDT" depends-on-methods="com.shp.automation.home.test.HomeTest.launchTest" finished-at="2021-03-30T21:00:45 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+      </class> <!-- com.shp.automation.home.test.HomeTest -->
+      <class name="com.shp.automation.products.test.ProductDetailsTest">
+        <test-method status="PASS" signature="naviagateToProductTest()[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="naviagateToProductTest" duration-ms="4292" started-at="2021-03-30T21:00:45 PDT" finished-at="2021-03-30T21:00:49 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naviagateToProductTest -->
+        <test-method status="PASS" signature="searchProductDPTest(java.lang.String)[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductDPTest" duration-ms="124" started-at="2021-03-30T21:00:49 PDT" data-provider="products" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:00:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductDPTest -->
+        <test-method status="PASS" signature="searchProductDPTest(java.lang.String)[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductDPTest" duration-ms="116" started-at="2021-03-30T21:00:50 PDT" data-provider="products" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:00:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductDPTest -->
+        <test-method status="PASS" signature="searchProductDPTest(java.lang.String)[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductDPTest" duration-ms="111" started-at="2021-03-30T21:00:50 PDT" data-provider="products" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:00:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shruti]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductDPTest -->
+        <test-method status="PASS" signature="searchProductDPTest(java.lang.String)[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductDPTest" duration-ms="122" started-at="2021-03-30T21:00:50 PDT" data-provider="products" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:00:50 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[litika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductDPTest -->
+        <test-method status="FAIL" signature="searchProductDPTest(java.lang.String)[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductDPTest" duration-ms="10098" started-at="2021-03-30T21:00:50 PDT" data-provider="products" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:01:00 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[contains(text(),'View')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//a[contains(text(),'View')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(text(),'View')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//a[contains(text(),'View')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+at com.shp.automation.pages.products.ProductsPage.isViewButtonPresent(ProductsPage.java:66)
+at com.shp.automation.products.test.ProductDetailsTest.searchProductDPTest(ProductDetailsTest.java:50)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductDPTest -->
+        <test-method status="PASS" signature="searchProductTest()[pri:0, instance:com.shp.automation.products.test.ProductDetailsTest@7ed7259e]" name="searchProductTest" duration-ms="1144" started-at="2021-03-30T21:01:00 PDT" depends-on-methods="com.shp.automation.products.test.ProductDetailsTest.naviagateToProductTest" finished-at="2021-03-30T21:01:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+      </class> <!-- com.shp.automation.products.test.ProductDetailsTest -->
+      <class name="com.shp.automation.test.register.RegisterFieldsTest">
+        <test-method status="PASS" signature="navigateToRegisterPage()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="navigateToRegisterPage" duration-ms="677" started-at="2021-03-30T21:01:02 PDT" finished-at="2021-03-30T21:01:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterPage -->
+        <test-method status="PASS" signature="isNameFieldPresent()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="isNameFieldPresent" duration-ms="83" started-at="2021-03-30T21:01:02 PDT" depends-on-methods="com.shp.automation.test.register.RegisterFieldsTest.navigateToRegisterPage" finished-at="2021-03-30T21:01:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isNameFieldPresent -->
+        <test-method status="PASS" signature="isEmailFieldPresent()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="isEmailFieldPresent" duration-ms="101" started-at="2021-03-30T21:01:02 PDT" depends-on-methods="com.shp.automation.test.register.RegisterFieldsTest.isNameFieldPresent" finished-at="2021-03-30T21:01:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEmailFieldPresent -->
+        <test-method status="PASS" signature="isPhoneFieldPresent()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="isPhoneFieldPresent" duration-ms="82" started-at="2021-03-30T21:01:03 PDT" depends-on-methods="com.shp.automation.test.register.RegisterFieldsTest.isEmailFieldPresent" finished-at="2021-03-30T21:01:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPhoneFieldPresent -->
+        <test-method status="PASS" signature="isUsernamePresent()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="isUsernamePresent" duration-ms="64" started-at="2021-03-30T21:01:03 PDT" depends-on-methods="com.shp.automation.test.register.RegisterFieldsTest.isPhoneFieldPresent" finished-at="2021-03-30T21:01:03 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isUsernamePresent -->
+        <test-method status="PASS" signature="isPasswordFieldPresent()[pri:0, instance:com.shp.automation.test.register.RegisterFieldsTest@28eaa59a]" name="isPasswordFieldPresent" duration-ms="1057" started-at="2021-03-30T21:01:03 PDT" depends-on-methods="com.shp.automation.test.register.RegisterFieldsTest.isUsernamePresent" finished-at="2021-03-30T21:01:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPasswordFieldPresent -->
+      </class> <!-- com.shp.automation.test.register.RegisterFieldsTest -->
+      <class name="com.shp.automation.test.register.InvalidRegistrationTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.shp.automation.test.register.InvalidRegistrationTest@3daa422a]" name="init" is-config="true" duration-ms="4819" started-at="2021-03-30T20:59:57 PDT" finished-at="2021-03-30T21:00:02 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="invalidRegistrationTest()[pri:0, instance:com.shp.automation.test.register.InvalidRegistrationTest@3daa422a]" name="invalidRegistrationTest" duration-ms="8134" started-at="2021-03-30T21:00:02 PDT" finished-at="2021-03-30T21:00:10 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidRegistrationTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.shp.automation.test.register.InvalidRegistrationTest@3daa422a]" name="cleanUp" is-config="true" duration-ms="748" started-at="2021-03-30T21:01:31 PDT" finished-at="2021-03-30T21:01:32 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.shp.automation.test.register.InvalidRegistrationTest -->
+      <class name="com.shp.automation.products.test.ProductTest">
+        <test-method status="FAIL" signature="productTest()[pri:0, instance:com.shp.automation.products.test.ProductTest@31c88ec8]" name="productTest" duration-ms="10016" started-at="2021-03-30T21:00:10 PDT" finished-at="2021-03-30T21:00:20 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@class='carousel-caption']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//div[@class='carousel-caption']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='carousel-caption']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//div[@class='carousel-caption']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy26.isDisplayed(Unknown Source)
+at com.shp.automation.pages.home.HomePage.isCarouselPresent(HomePage.java:29)
+at com.shp.automation.products.test.ProductTest.productTest(ProductTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+      </class> <!-- com.shp.automation.products.test.ProductTest -->
+      <class name="com.shp.automation.test.register.RegisterSanityTest">
+        <test-method status="PASS" signature="registerSanityTest()[pri:0, instance:com.shp.automation.test.register.RegisterSanityTest@3427b02d]" name="registerSanityTest" duration-ms="8203" started-at="2021-03-30T21:01:04 PDT" finished-at="2021-03-30T21:01:12 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSanityTest -->
+      </class> <!-- com.shp.automation.test.register.RegisterSanityTest -->
+      <class name="com.shp.automation.home.test.HeaderTest">
+        <test-method status="PASS" signature="headerTest()[pri:0, instance:com.shp.automation.home.test.HeaderTest@1cbbffcd]" name="headerTest" duration-ms="492" started-at="2021-03-30T21:00:20 PDT" finished-at="2021-03-30T21:00:21 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerTest -->
+      </class> <!-- com.shp.automation.home.test.HeaderTest -->
+      <class name="com.shp.automation.products.test.ProductSearchTest">
+        <test-method status="FAIL" signature="productSearchTest()[pri:0, instance:com.shp.automation.products.test.ProductSearchTest@647e447]" name="productSearchTest" duration-ms="17739" started-at="2021-03-30T21:01:12 PDT" finished-at="2021-03-30T21:01:30 PDT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[contains(text(),'filtered from 120 total entries')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//div[contains(text(),'filtered from 120 total entries')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),'filtered from 120 total entries')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-1TDA76TJ', ip: '192.168.0.137', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201221152838, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 10476, moz:profile: C:\Users\tejas\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b3c75d24-871d-4ad1-9029-3ff22a19d5ad
+*** Element info: {Using=xpath, value=//div[contains(text(),'filtered from 120 total entries')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.shp.automation.products.test.ProductSearchTest.productSearchTest(ProductSearchTest.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productSearchTest -->
+      </class> <!-- com.shp.automation.products.test.ProductSearchTest -->
+      <class name="com.shp.automation.test.uservalidation.LoginSanityTest">
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.shp.automation.test.uservalidation.LoginSanityTest@41fbdac4]" name="launchTest" duration-ms="36" started-at="2021-03-30T21:01:30 PDT" finished-at="2021-03-30T21:01:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method status="PASS" signature="loginLinkTest()[pri:0, instance:com.shp.automation.test.uservalidation.LoginSanityTest@41fbdac4]" name="loginLinkTest" duration-ms="50" started-at="2021-03-30T21:01:30 PDT" depends-on-methods="com.shp.automation.test.uservalidation.LoginSanityTest.launchTest" finished-at="2021-03-30T21:01:30 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLinkTest -->
+        <test-method status="PASS" signature="navigateToLoginTest()[pri:0, instance:com.shp.automation.test.uservalidation.LoginSanityTest@41fbdac4]" name="navigateToLoginTest" duration-ms="290" started-at="2021-03-30T21:01:30 PDT" depends-on-methods="com.shp.automation.test.uservalidation.LoginSanityTest.loginLinkTest" finished-at="2021-03-30T21:01:31 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginTest -->
+      </class> <!-- com.shp.automation.test.uservalidation.LoginSanityTest -->
+      <class name="com.shp.automation.test.uservalidation.UserLoginTest">
+        <test-method status="PASS" signature="naviagateToLoginTest()[pri:0, instance:com.shp.automation.test.uservalidation.UserLoginTest@481a996b]" name="naviagateToLoginTest" duration-ms="310" started-at="2021-03-30T21:00:26 PDT" finished-at="2021-03-30T21:00:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- naviagateToLoginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.shp.automation.test.uservalidation.UserLoginTest@481a996b]" name="loginTest" duration-ms="6485" started-at="2021-03-30T21:00:26 PDT" data-provider="userData" depends-on-methods="com.shp.automation.test.uservalidation.UserLoginTest.naviagateToLoginTest" finished-at="2021-03-30T21:00:33 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[testuser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.shp.automation.test.uservalidation.UserLoginTest@481a996b]" name="loginTest" duration-ms="5337" started-at="2021-03-30T21:00:33 PDT" data-provider="userData" depends-on-methods="com.shp.automation.test.uservalidation.UserLoginTest.naviagateToLoginTest" finished-at="2021-03-30T21:00:38 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[akash]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.shp.automation.test.uservalidation.UserLoginTest@481a996b]" name="loginTest" duration-ms="5468" started-at="2021-03-30T21:00:38 PDT" data-provider="userData" depends-on-methods="com.shp.automation.test.uservalidation.UserLoginTest.naviagateToLoginTest" finished-at="2021-03-30T21:00:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usertest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usertest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.shp.automation.test.uservalidation.UserLoginTest -->
+      <class name="com.shp.automation.test.uservalidation.LoginNegativeTest">
+        <test-method status="PASS" signature="loginNegativeTest()[pri:0, instance:com.shp.automation.test.uservalidation.LoginNegativeTest@27ce24aa]" name="loginNegativeTest" duration-ms="4155" started-at="2021-03-30T21:00:21 PDT" finished-at="2021-03-30T21:00:26 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+      </class> <!-- com.shp.automation.test.uservalidation.LoginNegativeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
