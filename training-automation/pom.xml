@@ -6,7 +6,7 @@
 	<artifactId>training-automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<!-- code changes in eclipse and push the code to git -->
+	<!-- code changes in eclipse and push the code to Github -->
 	
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
